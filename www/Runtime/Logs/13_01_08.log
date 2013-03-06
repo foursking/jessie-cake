@@ -1,0 +1,42 @@
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Tag[ app_begin ] --START--
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.016847s ]
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.017055s ]
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Tag[ view_template ] --START--
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Run LocationTemplate Behavior [ RunTime:0.011708s ]
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.011857s ]
+[ 2013-01-08T11:11:19+08:00 ] /caidan/root/ | INFO: Tag[ view_parse ] --START--
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run ParseTemplate Behavior [ RunTime:0.186837s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.186999s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Tag[ view_filter ] --START--
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run ContentReplace Behavior [ RunTime:0.015356s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run TokenBuild Behavior [ RunTime:0.018111s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004042s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run ShowRuntime Behavior [ RunTime:0.008439s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.046390s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\jess\caidan\www\Lib\Action\IndexAction.class.php:7) View.class.php 第 120 行.
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\jess\caidan\www\Lib\Action\IndexAction.class.php:7) View.class.php 第 121 行.
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\jess\caidan\www\Lib\Action\IndexAction.class.php:7) View.class.php 第 122 行.
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Tag[ view_end ] --START--
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.012974s ]
+[ 2013-01-08T11:11:20+08:00 ] /caidan/root/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.013081s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ route_check ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run CheckRoute Behavior [ RunTime:0.014138s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ route_check ] --END-- [ RunTime:0.014326s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ app_begin ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001086s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_template ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run LocationTemplate Behavior [ RunTime:0.001636s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_template ] --END-- [ RunTime:0.001767s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_parse ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run ParseTemplate Behavior [ RunTime:0.035341s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035479s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_filter ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run ContentReplace Behavior [ RunTime:0.000584s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run TokenBuild Behavior [ RunTime:0.000703s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000327s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002709s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_end ] --START--
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Run ShowPageTrace Behavior [ RunTime:0.003364s ]
+[ 2013-01-08T11:11:33+08:00 ] /caidan/root/index.php/boot | INFO: Tag[ view_end ] --END-- [ RunTime:0.003560s ]
